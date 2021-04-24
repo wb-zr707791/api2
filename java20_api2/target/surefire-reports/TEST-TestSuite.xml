@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.31" tests="24" errors="0" skipped="0" failures="17">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/zhourui/java20_api2/target/test-classes:/Users/zhourui/java20_api2/target/classes:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/rest-assured/4.2.0/rest-assured-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/json-path/4.2.0/json-path-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/rest-assured-common/4.2.0/rest-assured-common-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/xml-path/4.2.0/xml-path-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/cn/afterturn/easypoi-annotation/4.0.0/easypoi-annotation-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/cn/afterturn/easypoi-base/4.0.0/easypoi-base-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/poi/poi/4.0.0/poi-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/poi/poi-ooxml-schemas/4.0.0/poi-ooxml-schemas-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/ognl/ognl/3.2.6/ognl-3.2.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/alibaba/fastjson/1.2.68/fastjson-1.2.68.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-dbutils/commons-dbutils/1.6/commons-dbutils-1.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/binarywang/java-testdata-generator/1.1.2/java-testdata-generator-1.1.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/joda-time/joda-time/2.7/joda-time-2.7.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure-testng/2.6.0/allure-testng-2.6.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure-descriptions-javadoc/2.6.0/allure-descriptions-javadoc-2.6.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/dreamhead/moco-runner/1.0.0/moco-runner-1.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/dreamhead/moco-core/1.0.0/moco-core-1.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-codec-http/4.1.39.Final/netty-codec-http-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-common/4.1.39.Final/netty-common-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-buffer/4.1.39.Final/netty-buffer-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-transport/4.1.39.Final/netty-transport-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-resolver/4.1.39.Final/netty-resolver-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-codec/4.1.39.Final/netty-codec-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-handler/4.1.39.Final/netty-handler-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0.pr1/jackson-databind-2.10.0.pr1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0.pr1/jackson-annotations-2.10.0.pr1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-core/2.10.0.pr1/jackson-core-2.10.0.pr1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/zhourui/java20_api2/target/surefire/surefirebooter5551259537648941278.jar /Users/zhourui/java20_api2/target/surefire 2021-01-31T23-18-20_188-jvmRun1 surefire3235490026626862860tmp surefire_08238153283930048880tmp"/>
+    <property name="surefire.test.class.path" value="/Users/zhourui/java20_api2/target/test-classes:/Users/zhourui/java20_api2/target/classes:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/rest-assured/4.2.0/rest-assured-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/json-path/4.2.0/json-path-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/rest-assured-common/4.2.0/rest-assured-common-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/rest-assured/xml-path/4.2.0/xml-path-4.2.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/cn/afterturn/easypoi-annotation/4.0.0/easypoi-annotation-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/cn/afterturn/easypoi-base/4.0.0/easypoi-base-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/poi/poi/4.0.0/poi-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/poi/poi-ooxml-schemas/4.0.0/poi-ooxml-schemas-4.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/ognl/ognl/3.2.6/ognl-3.2.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/alibaba/fastjson/1.2.68/fastjson-1.2.68.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-dbutils/commons-dbutils/1.6/commons-dbutils-1.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/binarywang/java-testdata-generator/1.1.2/java-testdata-generator-1.1.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/joda-time/joda-time/2.7/joda-time-2.7.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure-testng/2.6.0/allure-testng-2.6.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure-descriptions-javadoc/2.6.0/allure-descriptions-javadoc-2.6.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/dreamhead/moco-runner/1.0.0/moco-runner-1.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/github/dreamhead/moco-core/1.0.0/moco-core-1.0.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-codec-http/4.1.39.Final/netty-codec-http-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-common/4.1.39.Final/netty-common-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-buffer/4.1.39.Final/netty-buffer-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-transport/4.1.39.Final/netty-transport-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-resolver/4.1.39.Final/netty-resolver-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-codec/4.1.39.Final/netty-codec-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/io/netty/netty-handler/4.1.39.Final/netty-handler-4.1.39.Final.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0.pr1/jackson-databind-2.10.0.pr1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0.pr1/jackson-annotations-2.10.0.pr1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-core/2.10.0.pr1/jackson-core-2.10.0.pr1.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="/Users/zhourui/java20_api2/target/allure-results"/>
+    <property name="user.home" value="/Users/zhourui"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/zhourui/java20_api2"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/zhourui/java20_api2/target/surefire/surefirebooter5551259537648941278.jar:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="zhourui"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="idea.version2020.1" value="true"/>
+    <property name="localRepository" value="/Users/zhourui/Downloads/apache-maven-3.6.3/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5p/7g2dvqkx1gbgy7rjk0bs6h_m0000gn/T/"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="/Users/zhourui/java20_api2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/zhourui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="/Users/zhourui/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="maven.repo.local" value="/Users/zhourui/Downloads/apache-maven-3.6.3/repository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test" classname="cases81.RegisterCase2" time="0.813">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:24 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=1, name='register', method='post', url='http://api.lemonban.com/futureloan/member/register', params='{"mobile_phone":"19000000000","pwd":""}', contentType='json', sql='null'}
+2021-01-31 23:18:24 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:24 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:24 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:24 INFO  HttpUtils:141 - {"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:25 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/zhourui/Downloads/apache-maven-3.6.3/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="cases81.RegisterCase2" time="0.114">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:25 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=2, name='register', method='post', url='http://api.lemonban.com/futureloan/member/register', params='{"mobile_phone":"","pwd":"123456"}', contentType='json', sql='null'}
+2021-01-31 23:18:25 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:25 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:25 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:25 INFO  HttpUtils:141 - {"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:25 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RegisterCase2" time="0.107">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:25 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=3, name='register', method='post', url='http://api.lemonban.com/futureloan/member/register', params='{"mobile_phone":"123","pwd":"123456123"}', contentType='json', sql='null'}
+2021-01-31 23:18:25 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:25 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:25 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:25 INFO  HttpUtils:141 - {"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:25 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RegisterCase2" time="0.091">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:25 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=4, name='register', method='post', url='http://api.lemonban.com/futureloan/member/register', params='{"mobile_phone":"19000000000","pwd":"12345"}', contentType='json', sql='null'}
+2021-01-31 23:18:25 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:25 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:25 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:25 INFO  HttpUtils:141 - {"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:25 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RegisterCase2" time="1.254">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:25 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=5, name='register', method='post', url='http://api.lemonban.com/futureloan/member/register', params='{"mobile_phone":"17749224439","pwd":"12345678"}', contentType='json', sql='select count(*) from member a where a.mobile_phone = '17749224439';'}
+2021-01-31 23:18:26 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:26 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:26 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:26 INFO  HttpUtils:141 - {"code":0,"msg":"OK","data":{"id":1190052,"reg_name":"小柠檬","mobile_phone":"17749224439"},"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:26 INFO  BaseCase:113 - 断言结果: true
+before:0
+after:1
+数据库断言：pass
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RegisterCase2" time="0.887">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:26 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=6, name='register', method='post', url='http://api.lemonban.com/futureloan/member/register', params='{"mobile_phone":"17749224439","pwd":"12345678"}', contentType='json', sql='select count(*) from member a where a.mobile_phone = '17749224439';'}
+2021-01-31 23:18:27 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:27 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:27 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:27 INFO  HttpUtils:141 - {"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:27 INFO  BaseCase:113 - 断言结果: false
+before:1
+after:1
+数据库断言：fail
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.LoginCase" time="0.094"/>
+  <testcase name="test" classname="cases81.LoginCase" time="0.072">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:27 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=2, name='login', method='post', url='http://api.lemonban.com/futureloan/member/login', params='{"mobile_phone":"","pwd":"123456"}', contentType='json', sql='null'}
+2021-01-31 23:18:27 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:27 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:27 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:27 INFO  HttpUtils:141 - {"code":1,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:27 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.LoginCase" time="0.133">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:27 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=3, name='login', method='post', url='http://api.lemonban.com/futureloan/member/login', params='{"mobile_phone":"123","pwd":"123456123"}', contentType='json', sql='null'}
+2021-01-31 23:18:28 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:28 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:28 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:28 INFO  HttpUtils:141 - {"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:28 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.LoginCase" time="0.113">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:28 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=4, name='login', method='post', url='http://api.lemonban.com/futureloan/member/login', params='{"mobile_phone":"19000000000","pwd":"12345"}', contentType='json', sql='null'}
+2021-01-31 23:18:28 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:28 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:28 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:28 INFO  HttpUtils:141 - {"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:28 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.LoginCase" time="0.135">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:28 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=5, name='login', method='post', url='http://api.lemonban.com/futureloan/member/login', params='{"mobile_phone":"13212332111","pwd":"12346567118"}', contentType='json', sql='null'}
+2021-01-31 23:18:28 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:28 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:28 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:28 INFO  HttpUtils:141 - {"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:28 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.LoginCase" time="0.082"/>
+  <testcase name="test" classname="cases81.LoginCase" time="0.096">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:32 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=1, name='login', method='post', url='http://api.lemonban.com/futureloan/member/login', params='{"mobile_phone":"14791355931","pwd":"12345678"}', contentType='json', sql='null'}
+2021-01-31 23:18:32 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:32 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:32 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:32 INFO  HttpUtils:141 - {"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:32 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.UserInfoCase" time="0.091"/>
+  <testcase name="test" classname="cases81.UserInfoCase" time="0.092"/>
+  <testcase name="test" classname="cases81.RechargeCase" time="0.08">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:28 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=1, name='recharge', method='post', url='http://api.lemonban.com/futureloan/member/recharge', params='{"member_id":"-1","amount":"6300"}', contentType='json', sql='null'}
+2021-01-31 23:18:28 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:28 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:28 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:28 INFO  HttpUtils:141 - {"code":1007,"msg":"无权限访问，请检查参数","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:28 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RechargeCase" time="0.073">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:28 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=2, name='recharge', method='post', url='http://api.lemonban.com/futureloan/member/recharge', params='{"member_id":"1190052","amount":"1116300"}', contentType='json', sql='null'}
+2021-01-31 23:18:28 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:28 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:28 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:28 INFO  HttpUtils:141 - {"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:28 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RechargeCase" time="0.085">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:28 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=3, name='recharge', method='post', url='http://api.lemonban.com/futureloan/member/recharge', params='{"member_id":"1190052","amount":"-6300"}', contentType='json', sql='null'}
+2021-01-31 23:18:28 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:28 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:28 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:28 INFO  HttpUtils:141 - {"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:28 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RechargeCase" time="0.147">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:28 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=4, name='recharge', method='post', url='http://api.lemonban.com/futureloan/member/recharge', params='{"member_id":"1190052","amount":"SSS"}', contentType='json', sql='null'}
+2021-01-31 23:18:29 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:29 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:29 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:29 INFO  HttpUtils:141 - {"code":2,"msg":"余额必须为数值型","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:29 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.RechargeCase" time="0.76"/>
+  <testcase name="test" classname="cases81.RechargeCase" time="1.911"/>
+  <testcase name="test" classname="cases81.AddCase" time="0.105"/>
+  <testcase name="test" classname="cases81.AuditCase" time="0.101">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.AuditCase.test(AuditCase.java:35)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:32 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=1, name='audit', method='PATCH', url='http://api.lemonban.com/futureloan/loan/audit', params='{ "loan_id": 1341, "approved_or_not": true }', contentType='json', sql='null'}
+2021-01-31 23:18:32 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:32 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:32 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:32 INFO  HttpUtils:141 - {"code":2,"msg":"普通会员不能审核项目，请使用管理员账号","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:32 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="cases81.InvestCase" time="0.093">
+    <failure message="expected [PASSED] but found [FAILED]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.InvestCase.test(InvestCase.java:35)
+</failure>
+    <system-out><![CDATA[2021-01-31 23:18:32 INFO  BaseCase:151 - CaseInfo{expectedResult='{"$.code":0,"$.msg":"OK"}', id=1, name='invest', method='post', url='http://api.lemonban.com/futureloan/member/invest', params='{"member_id":1190052,"loan_id":1341,"amount":6300.00} ', contentType='json', sql='null'}
+2021-01-31 23:18:32 INFO  HttpUtils:133 - 200
+2021-01-31 23:18:32 INFO  HttpUtils:136 - [Server: nginx/1.4.2, Date: Sun, 31 Jan 2021 15:18:32 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2021-01-31 23:18:32 INFO  HttpUtils:141 - {"code":2,"msg":"该项目不在竞标中状态","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2021-01-31 23:18:32 INFO  BaseCase:113 - 断言结果: false
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [futureloan]">
+  <test name="注册接口(failed)">
+    <parameter name="sheetIndex" value="0"/>
+    <classes>
+      <class name="cases81.RegisterCase2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases81.RegisterCase2 -->
+    </classes>
+  </test> <!-- 注册接口(failed) -->
+  <test name="登录接口(failed)">
+    <parameter name="sheetIndex" value="1"/>
+    <classes>
+      <class name="cases81.LoginCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="1 2 3 4"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases81.LoginCase -->
+    </classes>
+  </test> <!-- 登录接口(failed) -->
+  <test name="充值接口(failed)">
+    <parameter name="sheetIndex" value="2"/>
+    <classes>
+      <class name="cases81.RechargeCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases81.RechargeCase -->
+    </classes>
+  </test> <!-- 充值接口(failed) -->
+  <test name="管理员登录接口(failed)">
+    <parameter name="sheetIndex" value="4"/>
+    <classes>
+      <class name="cases81.LoginCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases81.LoginCase -->
+    </classes>
+  </test> <!-- 管理员登录接口(failed) -->
+  <test name="审核项目接口(failed)">
+    <parameter name="sheetIndex" value="5"/>
+    <classes>
+      <class name="cases81.AuditCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases81.AuditCase -->
+    </classes>
+  </test> <!-- 审核项目接口(failed) -->
+  <test name="投资接口(failed)">
+    <parameter name="sheetIndex" value="6"/>
+    <classes>
+      <class name="cases81.InvestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- cases81.InvestCase -->
+    </classes>
+  </test> <!-- 投资接口(failed) -->
+</suite> <!-- Failed suite [futureloan] -->

@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 11.31 s <<< FAILURE! - in TestSuite
+test(cases81.RegisterCase2)  Time elapsed: 0.813 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+
+test(cases81.RegisterCase2)  Time elapsed: 0.114 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+
+test(cases81.RegisterCase2)  Time elapsed: 0.107 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+
+test(cases81.RegisterCase2)  Time elapsed: 0.091 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+
+test(cases81.RegisterCase2)  Time elapsed: 1.254 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+
+test(cases81.RegisterCase2)  Time elapsed: 0.887 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RegisterCase2.test(RegisterCase2.java:44)
+
+test(cases81.LoginCase)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+
+test(cases81.LoginCase)  Time elapsed: 0.133 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+
+test(cases81.LoginCase)  Time elapsed: 0.113 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+
+test(cases81.LoginCase)  Time elapsed: 0.135 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+
+test(cases81.RechargeCase)  Time elapsed: 0.08 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+
+test(cases81.RechargeCase)  Time elapsed: 0.073 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+
+test(cases81.RechargeCase)  Time elapsed: 0.085 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+
+test(cases81.RechargeCase)  Time elapsed: 0.147 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.RechargeCase.test(RechargeCase.java:49)
+
+test(cases81.LoginCase)  Time elapsed: 0.096 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.LoginCase.test(LoginCase.java:36)
+
+test(cases81.AuditCase)  Time elapsed: 0.101 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.AuditCase.test(AuditCase.java:35)
+
+test(cases81.InvestCase)  Time elapsed: 0.093 s  <<< FAILURE!
+java.lang.AssertionError: expected [PASSED] but found [FAILED]
+	at cases81.InvestCase.test(InvestCase.java:35)
+
